@@ -1,0 +1,8 @@
+Platform number of nodes: 305962
+Platform number of UUIDS: 891846
+Total Clone Classes: 3
+Clone Configurations:
+CloneClassId: 0bd4a3d7-927c-4b44-8f8f-6b1a0fd44dda number of configs: 28
+CloneClassId: 13b65489-c035-4f81-a4df-c93ff4636c68 number of configs: 9
+CloneClassId: e6557363-e00a-45e0-b2d7-0d8516b35867 number of configs: 7
+Total Configurations:44

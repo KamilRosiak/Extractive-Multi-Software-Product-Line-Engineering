@@ -1,0 +1,7 @@
+net.gliblybits.bitsengine
+net.gliblybits.bitsengine.core
+net.gliblybits.bitsengine.gui
+net.gliblybits.bitsengine.input.touch
+net.gliblybits.bitsengine.render
+net.gliblybits.bitsengine.render.renderables
+net.gliblybits.bitsengine.utils

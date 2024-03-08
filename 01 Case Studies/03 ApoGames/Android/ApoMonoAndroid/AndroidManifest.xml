@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.apogames.apomono"
+    android:versionCode="5"
+    android:versionName="1.03" >
+
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="17" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:allowBackup="true" >
+        
+        <meta-data android:value="a1510eb01a099dc" android:name="ADMOB_PUBLISHER_ID" />
+    	<activity 
+		    android:name="com.google.ads.AdActivity" 
+			android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|layoutDirection|fontScale"
+		/>
+        
+        <activity
+            android:name="ApoMonoActivity"
+            android:label="@string/app_name"
+            android:configChanges="keyboardHidden|orientation|mcc|mnc|locale|touchscreen|keyboard|navigation|screenLayout|uiMode|fontScale|layoutDirection|smallestScreenSize|screenSize" 
+			android:launchMode="singleInstance" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

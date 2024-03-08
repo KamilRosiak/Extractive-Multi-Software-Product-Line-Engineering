@@ -1,0 +1,4 @@
+//Properties for ApoSoccer//
+HomeAI: C:\Users\Admin1\Desktop\ApoGamesSpieleSrc\games\ApoSoccer\fcm\FCM.class
+BirdEyeView: false
+Debug: true

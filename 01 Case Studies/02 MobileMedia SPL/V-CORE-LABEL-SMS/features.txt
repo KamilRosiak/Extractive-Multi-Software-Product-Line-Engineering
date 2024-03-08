@@ -1,0 +1,22 @@
+MobileMedia;MobileMedia
+MediaManagement;MediaManagement
+CreateDelete;CreateDelete
+ViewPlay;ViewPlay
+Photo;includePhotoAlbum
+Exception;Exception
+
+Label;editLabel
+
+// #ifdef includeSorting
+//@Sort;includeSorting
+//@Count;Count
+// #endif
+// #ifdef includeFavourites
+//@Favourite;includeFavourites
+// #endif
+// #ifdef includeCopyPhoto
+//@Copies;includeCopyPhoto
+// #endif
+// #ifdef includeSmsFeature
+SMS;includeSmsFeature
+// #endif
